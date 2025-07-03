@@ -1,0 +1,5 @@
+launch with playwright with browser binary 
+use gdrive for storage, 
+you can use local storage for dev but abstract it so that any type can do in the future
+deploy local redis server for now 
+use sqlite for now, but use postgresql supabase later
