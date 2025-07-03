@@ -1,6 +1,6 @@
 AIRFLOW_VERSION=3.0.2
 
-export AIRFLOW_HOME=./airflow
+
 
 # Extract the version of Python you have installed. If you're currently using a Python version that is not supported by Airflow, you may want to set this manually.
 # See above for supported versions.

@@ -1,0 +1,6 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.env.linux": {
+        "AIRFLOW_HOME": "/media/ronald/Kingston Shared/limitless/airflow"
+    }
+}
