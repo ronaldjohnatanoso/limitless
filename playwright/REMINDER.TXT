@@ -1,6 +1,7 @@
-pip install "apache-airflow[postgres]"
-
 GIVE PERMISSION RECURSIVELY TO THE FOLDER IN BINARY NOT JUST THE EXECUTABLE
 chmod -R +x /content/playwright/../chrome_binary_setup/chrome/linux-116.0.5793.0/chrome-linux64
 
 ALSO INSTALL THE DEPENDENCIES PACKAGES
+
+with_binary: produces the json storage 
+load storage example : loads from a json file, creates the profile

@@ -77,6 +77,9 @@ def main():
             
             page.wait_for_load_state('networkidle')
 
+            # write something
+            page.fill("p", "Hello, this is a test message from Playwright!")
+
             # Take a screenshot
             screenshot_path = os.path.join(current_dir, f"screenshot_{profile_name}.png")
             page.screenshot(path=screenshot_path)
