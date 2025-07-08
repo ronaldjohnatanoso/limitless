@@ -1,0 +1,19 @@
+make sure redis is installed and served. 
+change the executor to celery 
+find the config for using celery, you are gonna be adding shit in the config
+[celery]
+broker_url = rediss://... (with ssl_cert_reqs=CERT_REQUIRED)
+result_backend = db+postgresql://... (use database instead of redis)
+
+run redis service (Upstash handles this)
+
+then run separately 
+airflow celery worker 
+airflow scheduler 
+airflow api-server
+
+airflow scheduler
+
+airflow dag-processor
+
+airflow triggerer

@@ -10,7 +10,7 @@ def encryption_dag():
     def task1():
         """Generate a very long secret message"""
 
-        secret_message = "The quick brown fox jumps over the lazy dog. " * 5
+        secret_message = "The quick brown fox jumps over the lazy dog. " * 3
         print(f"Task 1: Secret message created: '{secret_message}'")
         time.sleep(1)
         return secret_message
