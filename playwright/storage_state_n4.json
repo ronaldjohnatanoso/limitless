@@ -1,0 +1,671 @@
+{
+  "cookies": [
+    {
+      "name": "AEC",
+      "value": "AVh_V2ikL2Fc8X8yEWYKy8O0dGXRh1vbPnEIfObzbWx1fXCt73AIH1yFksA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1767430007.744285,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oai-did",
+      "value": "a59f9419-de8f-4f1e-8a4b-0c1cbe4659e7",
+      "domain": ".chatgpt.com",
+      "path": "/",
+      "expires": 1782982029.157057,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oai-did",
+      "value": "d7378deb-21c6-4853-a40e-8005ceec2418",
+      "domain": ".openai.com",
+      "path": "/",
+      "expires": 1783414032.320339,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cf_clearance",
+      "value": "GvJA8k8z16NaOxPVqgU8xcDlQYPGCxjg9RAFU5RyDiM-1751878032-1.2.1.1-Ci5m89496eCz74KPrRh9WiZM4pa28k7L5s.x10im3g.LYZXATCtLqeQZ47ruup.E18CVsbZK5hfAjmjVCapQx2IbITmQS69JqxNFmFM1UOI7VtFAbuLE6cpIuwAtTC90cyturItWlLBbuz8oSiGHYQuEIUfyYer3LEaGdMgKpUU_GGsPiCGdoLH9Pt2Pi3w1hZbVy3rfhlgLdNXKxgu6fu_nUxOyMJWG04GxlmfWYBg",
+      "domain": ".auth.openai.com",
+      "path": "/",
+      "expires": 1783414032.75176,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "OTZ",
+      "value": "8159567_24_24__24_",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1754470036,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffsQbUMGV-8UIt1IjtG2e4-oAACgYKAZISARMSFQHGX2MinKkr4VLfQJKIfR79jQCrAxoVAUF8yKrNuMyDaLDg6RIcYydwg1AD0076",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393081,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffs5DbxweLrF-y2tVDRVUJf2AACgYKAQESARMSFQHGX2Mi1KvA6KFAOBZ0lzBRSsSftRoVAUF8yKrSWnpQNdxftBzYg45H5giu0076",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393096,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffs_sWBsgxaNScdYvkeEzSpAQACgYKAY4SARMSFQHGX2MiTnBulSlCW4v6ApQU_IBmShoVAUF8yKrie07ZIHls9BbsTw14LAA40076",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393109,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "HSID",
+      "value": "AhgK1f5cZvp25GkTF",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393153,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SSID",
+      "value": "Atb7FHemSLWZOs5TP",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393163,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APISID",
+      "value": "610MTq6KsoL7wkuu/AV2Wuuw2QiOj9w1hB",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393198,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393208,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393218,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1786438048.393228,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ACCOUNT_CHOOSER",
+      "value": "AFx_qI6Gn3QzKts-JN7xIjmgXnZdeVkl2Ub6vC-_w4ahD1rfDXKhcXuXrM7HX8h9PIM3OW3mIrJDMteTXgsIsU8N-xLHmCge4Rj0rtOR93vONCBuKH_q21WRik2ypFhLLhZRkD5Cx83Eksd2dCv5d1_bGJT_F-_ALw",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1786438048.393239,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-GAPS",
+      "value": "1:gTr6CL_ifAlKm0SEWOxwQJVynfgI5xFZhs4Ko-59oh5OSVqxlxxxkuCs60O1W26IWB_0Z7GYdnJ6BZ5O-mSzHMiV9tb2MQ:hPMHBcqxciRe8VSA",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1786438048.393248,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "LSID",
+      "value": "s.PH|s.youtube:g.a000ywi1bxMIxSVtlbJZSClcMepPBS00V8sc3csCJLDCnQ-_hBNCFVE9S43TDqeTDxGKQkpA1gACgYKAXoSARMSFQHGX2MixRdCMlsBOiQPvMd0WKYvsBoVAUF8yKorVOZqQH-j7pvFDyPKW_zl0076",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1786438048.467017,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-1PLSID",
+      "value": "s.PH|s.youtube:g.a000ywi1bxMIxSVtlbJZSClcMepPBS00V8sc3csCJLDCnQ-_hBNC61yRtW0rrfCrQ51Oje_KkgACgYKATwSARMSFQHGX2MiWt2zX35qvXvPDv5_7YW3YBoVAUF8yKqN8Xdz8IK7q0_scds0RCgA0076",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1786438048.467066,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Host-3PLSID",
+      "value": "s.PH|s.youtube:g.a000ywi1bxMIxSVtlbJZSClcMepPBS00V8sc3csCJLDCnQ-_hBNCqORfvIqZ7SCOo-VuyojB1gACgYKARwSARMSFQHGX2MilS66JjOKnHWlyTv3cyy7xxoVAUF8yKqByAmfTbx8dDjTMNU_Q5zT0076",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1786438048.467088,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Secure-1PSIDTS",
+      "value": "sidts-CjIB5H03P7axSKpjlQKsghm72NkIFLEBm16XkhmNy5-fW0Uyr5fUVjqWEMaXrNbaG21_IBAA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1783414048.614357,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSIDTS",
+      "value": "sidts-CjIB5H03P7axSKpjlQKsghm72NkIFLEBm16XkhmNy5-fW0Uyr5fUVjqWEMaXrNbaG21_IBAA",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1783414048.614419,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "HSID",
+      "value": "AmSruiPO_Vp-gB42f",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614435,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SSID",
+      "value": "Ar7MBLeW8pUyAH-MT",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614448,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APISID",
+      "value": "610MTq6KsoL7wkuu/AV2Wuuw2QiOj9w1hB",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614461,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614472,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614482,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614492,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffsQbUMGV-8UIt1IjtG2e4-oAACgYKAZISARMSFQHGX2MinKkr4VLfQJKIfR79jQCrAxoVAUF8yKrNuMyDaLDg6RIcYydwg1AD0076",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614501,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffs5DbxweLrF-y2tVDRVUJf2AACgYKAQESARMSFQHGX2Mi1KvA6KFAOBZ0lzBRSsSftRoVAUF8yKrSWnpQNdxftBzYg45H5giu0076",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614515,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffs_sWBsgxaNScdYvkeEzSpAQACgYKAY4SARMSFQHGX2MiTnBulSlCW4v6ApQU_IBmShoVAUF8yKrie07ZIHls9BbsTw14LAA40076",
+      "domain": ".youtube.com",
+      "path": "/",
+      "expires": 1786438048.614527,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "HSID",
+      "value": "AmSruiPO_Vp-gB42f",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.777487,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SSID",
+      "value": "Ar7MBLeW8pUyAH-MT",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.777526,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APISID",
+      "value": "610MTq6KsoL7wkuu/AV2Wuuw2QiOj9w1hB",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.777534,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.77754,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.777545,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PAPISID",
+      "value": "h1uWoI3qiRuXZmM9/AeTr2f15uQS-e7Pbl",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.777553,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "525=QS2xdYPvgFDrELEAJVSAxsvOZ08g6n6D1nI44Vqwl_BWpS-U1OD75wnmiklsySiQuQsE4ZkKZ0d9GiGyci7OBi3Vr2YONkA3RDGbWmIDS7jYw3p3JCyO3AVrO5OZZutw2ayjpSoZcUGZ4RM5w5ZTKS9e1MmkoA8hIWvyYztnav6iIwFX9N6ONcQ3NIMgHX0imVVEL2ZV5dA",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1767689248.777558,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffsQbUMGV-8UIt1IjtG2e4-oAACgYKAZISARMSFQHGX2MinKkr4VLfQJKIfR79jQCrAxoVAUF8yKrNuMyDaLDg6RIcYydwg1AD0076",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.777564,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffs5DbxweLrF-y2tVDRVUJf2AACgYKAQESARMSFQHGX2Mi1KvA6KFAOBZ0lzBRSsSftRoVAUF8yKrSWnpQNdxftBzYg45H5giu0076",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.777576,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSID",
+      "value": "g.a000ywi1b3BWKH9hdWx6wbG-kUpiuRSM9M-sGOLQZ1jGGGe1_ffs_sWBsgxaNScdYvkeEzSpAQACgYKAY4SARMSFQHGX2MiTnBulSlCW4v6ApQU_IBmShoVAUF8yKrie07ZIHls9BbsTw14LAA40076",
+      "domain": ".google.com.ph",
+      "path": "/",
+      "expires": 1786438048.777583,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "oai-hlib",
+      "value": "true",
+      "domain": "chatgpt.com",
+      "path": "/",
+      "expires": 1782982051.94468,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oai-model-sticky-for-new-chats",
+      "value": "false",
+      "domain": "chatgpt.com",
+      "path": "/",
+      "expires": 1754470053.311908,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "OTZ",
+      "value": "8159568_24_24__24_",
+      "domain": "ogs.google.com",
+      "path": "/",
+      "expires": 1754470065,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SIDCC",
+      "value": "AKEyXzX8lawQQH0DoW0vMbzqe-QCuTNYsCStPw0Q3HU7_83qDU7BMNPQLyt15aG7lI5j4dOg",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1783483133.75504,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-1PSIDCC",
+      "value": "AKEyXzXLXSpx2Veg5LjrAB-5TBLMXb0vIxGoaZrhJiHBaYuzsnaLgsYDW1JMABlb4Yb40vxtgA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1783483133.75505,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-3PSIDCC",
+      "value": "AKEyXzVdBj-4aYbPln8Ujv62teo5Af341lV6jT30DjzRQOeG6g6VJBR00XGd3NaJgnqZsCgXIg",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1783483133.755059,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "NID",
+      "value": "525=BGJoZHeTjfzUJ0cCMC7EQ3m_bU2aFhKZPrpW1i0eM-xsm4P7IQFlgclSxVwelzhb62MrSS6TuIKaHfD1iNPkGQv8sjr2IpA3vkBVa9G1LmulQ8GU_tkfrZMuODSYFIks2yG3MNmfTNf53WRvFIKDsKwMkKdwdngyTh2zjYGtdeSpcY6WUyGbmRYIW6tZbf8y6JPPA0N2yHUjFmx-Wng0tF0to7A_iy56upeb9lUjOnQN-1J4L9KEE5f6i2kBWuZ4Kz0g7_xnXLafqPLzOQchInZC2sBPuIIpTmZLC4rR0c63ISfAfCHiBdyjF0aflrVsgR_ylIUyJ-6Z-v7F2RqC6BhkWBt_0m5AF52NX9uq_A8fBvGJrWViIrBrhW_ga7SqkRdG1hcUhElANj9g_2TYq5EwujpZjy-R_fcj26Gu4aIj29vtnSeOMK0qm_CvD6s-eUj6adZibAGx_RzeA0UAr0jsZuzz5szo_t9R3bA6z5njvAW9dzPEoiHJO5iEJqy_9LPY20yePns96nSv4aGNAONa7mBFDN74MMMFnYLMPMo-Ui58QKAooZAZVLl79ByEIyqffSKmS8TCd098liqmmMhCHr9VuCZxJKFGz4Fhu34SNaQRIut7ZMpqzgEPLT4piBVoDbbOFkSh_zA0Y-8aCt3I38IMI_eADRNHAJaTxKdU9Q",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1767689205.733351,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cflb",
+      "value": "04dTofELUVCxHqRn2Xgr1zwPyxLxRd499kSBSpuDb9",
+      "domain": "chatgpt.com",
+      "path": "/",
+      "expires": 1751961661.194945,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cf_clearance",
+      "value": "CVhWGXYAdAkg4m41a7x7KXFkIPSg3FnQPM7.cFZ98h0-1751958061-1.2.1.1-bdtLBWB5SAx5zBSWVxIvg50pR7a_oX8kYKYb0UWKIvd8SQOqKoa19AJTnfMYIcD3iRLDj9m7YYg0hI0eksL3zrA1_gf8YMBBqM65UAypdjk74ZaJO98WQC9pa00q5h5tyYfYr7ugkW4gW6nnFwaIE_kSSlU2cCnsHU7pH98uoFb4j85qe_MNNXnqejB3zHwVdu8gnXE2axIW58fpgal8648PZgXu1ozsw_1oCqzETvM",
+      "domain": ".chatgpt.com",
+      "path": "/",
+      "expires": 1783494061.884394,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "Gziwbb0An3zE.ZoWF2suhO_vjI.gHI4gftJBlCutmrA-1751959744-1.0.1.1-A_Tx0eCsdH2YIfq.YFR0yhFHiruq.9s9f5DjhS9CD.O91OfQjsz2JmwZNjpiwA9SytvV0_pKYmB7RgZdfEqzlq4a7FJ3ZerJMeQUOEiUtro",
+      "domain": ".chatgpt.com",
+      "path": "/",
+      "expires": 1751961544.918551,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "aQT4nLIVLPGT04fIcj8.eQTOUTB4EzoSuGE2w3JlUVA-1751959745-1.0.1.1-hnATSgSvE9jLiuzD6sv2PZwy590zGaYjF_ZQQXf.XF8RxHqh7DsSQcxPRZJmNVCpR8imoDuiQzaSj5Fm32LghdG48J_d4QFPyqKfzcMpHQE",
+      "domain": ".oaistatic.com",
+      "path": "/",
+      "expires": 1751961545.08071,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cf_clearance",
+      "value": "q3CZJLMrJwKAUSPAu6LUcmmhmnT.IpU34rhtOGZYGRc-1751959745-1.2.1.1-t6hputsDVLJaF9Cv46oy5CXT50TCYHJfuasqwQzwc4bZuxqX4ELMQzn0oTpHxLtl_18_UJpvEfp3uXAdXn12j5CKdQ6S3pS79QKx.HkBiFBDPD_Driq3aAQY97tCDPg_Vyq_qZfWYFkRu67qcXmizH7P3yZGYMzNYA3lbbAid1ce5onziMv.vTR_vuUgo3P_YHuAdPkXZext4vJ8gO9HvG6mklta70GBMsJtFBR6N2c",
+      "domain": ".chatgpt.com",
+      "path": "/",
+      "expires": 1783495745.56021,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Host-next-auth.csrf-token",
+      "value": "303e9f57de6c58668a4aa36ab7d5be243986b549dd3979b83652e4c7a4733a8f%7C6aabee55eaa0c3c6954b9ed44056726e43b0590bce4341babce0aaf6b9c072ea",
+      "domain": "chatgpt.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.callback-url",
+      "value": "https%3A%2F%2Fchatgpt.com",
+      "domain": "chatgpt.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__Secure-next-auth.session-token",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..Q6ufMgartuSO9uj3.p67etJfPUvnQCuNgKPWR-XI4WpSv9DpGkfs8B4PNfEjP9k3LpODCIjkDjqTmauZzsHpnUVhOEt-nflLTe2iumkuLndzcDw5Rvz5JLrbduLysarVXLYoPm-vjZKaLebjXiCi_LJbwxVERya5tr62JlHfVPf0jmbFfCaSZ6DZeANpjaZWZ6ifeFh30kQPrhIwuJtr4m3j8xS76Lum5mfHQqqvAH56d3SfbaUw4PR_JzuqiG_6FADL_Gn2bWOG20mbPGJOXz12uT0cSskwrKsOOilfVIg7yb21lDsaC_wm2BTKhyA7-OUUIP3IuiYQonbNNBQL5Sb6NELrCp4Xd5jyTlQbmJUZ44t0khMnNvWyvKW3pX3JEk6j3KKUdWExMvTD-1o0YanmTMDsAz_wWkExk8PZhysVG4LK-sgPlFKYBYaGMcvX3Dp-7jX2u-nmod6zy-brAKzFE0IvqgYqG4URZEx19Qg0ozyRdCY5lLT5zWrtGhyVIBf2toQlHGQd83pBvtJCw1_7UuuRgnKpC1K2-jI8FN0HGtmD9VeUNd4WQapupTJMuex_wnc9jDwx1rjowpTU_64NHR_YboiM78c0oovknO3y_oyCy2kCpQgSY_qQHh7DPs3xHcTHpLl8_l3TF7as3C9cZ7qAFI7pjXx3Yf3iaqfj8bqeU6UE9NN0KeznWuAB_Y9mdhuqdK7vw0sFUrOkNvoDrw40HWCUrJG0oFGfXLJXPSgXrumkoc4As4x0I3k3J-CuE7t6swik22olRxCvY_fbz_CrWJ-VW-1FN-u5SJ0rdKeAWDVQI01XESQXQqg0589Q8SQDH9pK6MdT_0FbUOpSLjs5hqm9C3t13Ilc2JOjBwS_CbP4L7at2faGR0ZF5GnHS9nEdQw9K0CuqZ3tD4vZdumZFxOO8MqeQQ_OD9wECWgxY1z1ENbbCvalPA4KjEFYx58tUeX34naGK-MEeFsSiMjl_NPh5udOsqdOD3BV4Ne_3jP2HVLBdESR2uKGITkaRgUl2aYcewE4T0s3BijTdXUZTxoTJLVCRvkJ6tXufe7lErMWCeNnEPZ1tPMb4oX7-3agEqvtDnkgKqsRGv-ipLBH-VW2AP-7I-tk5Gz_XzFpn1Y1dOoovEQNxlyQH0dWOBRhFJFK9wV55LJzJPaOS5aoBDzOeCtqVz2uzqSO0cUrsgWmO8-LmAjfwIxgAHkqPNc2vDU1uYf3rzTs5qyCP2PgPoV9dL54tztgnr00irNSBOlfLRJNTjfcT8THUa2f2jtIFIIbJJbudB4TvOPexM88L9NVnAHiDarJ0X_M3nP909s9zQeEWNxYl5edFqnJrwAohfuTdnyS_XTL5BXopPKArYOjp2QL9OruehXlmY-2o5dn9ZaX9EP0-NnqMJWEarvE215Cf-dwJYFV8mf5cu-COU3Zl41yy0zN7LYzQkD4Esjh88F5WNpsBCW5HgQKNYDK1e5i4-u_6dyzPF5haVIZFvNvYCj_lC44zPe0l5PJ5ZLYYFNhuhLEg5aoCOXaGh_v48hLXeCWzU9wKXFBpRaU-9GAO72406WbOzZTO-ROq7DC7GQXQ9AvQN3T7OL_5TB7bTWdpZIeldU8kR7hlF8-gYWi366OPPq-WcNI0XNgmub_XBDCwfHaDEvGG8IlrQ6lPAJR91Mor-57f51Rc6g4q62sQRVbWYvZJIatQ1B8M3OQDz8uR5-SlaaNltvRh3alGO-0YyZ3-CWkY8g3f-hwVSNcqtzCJjWX-wLmYM4rTXi12MGR5NGOnPc4Vz-LyQs4cAIMb6D9wPRkFF0PkyBHWxydObZ52ejn9HfZSJOOPtZK_njkHcI9iDyoiQsepcNvi0LF4mvBWt79Tk4CJyEFNbgQaqinfQAoBicrzTHATqTIRgYIsbW5pIE19VocFtv2ivuHyELPStZOFLW3na9nFRXqY-5bTAlyDXqkS0q_DkWB-MJybf9S0wkY6PbZcOUwXbh-OJtl5RBtTF0DdM1axDIA0h4BL_khYkLN96hCKfePhff4FmnNT2Me0bff0X_VNepqL0AAfCjReTzAMk5feAQx_KoTrzAiE4ue7hxN5IjjIkQ8etBa9ryEXKblIZpiUWbZYsRer-TNXe6QyQhQOIrTUs2RazjbvteaxnlDjxjtpwlXul8OmOP041j3g2Mx7aO4ZB1nUl4mhy0moY8Qp7HPZVsOkHNSkYiewXtwk5bBkWiTEwDRY2B30oVM2aDqzHRuOfox1pNWzYWn-t_Jsc3qZqDxWffjayEI7TjueLF-SEMhYbyvnhnmlbP254F87e0zS0zP8D-22QAEXZ6WQnLNFYKo1VY9lgHUC_OPgDvrY2z_b_Q-RG4SXDKQY9fHrKsjlTCqk02Sz452ytBlrdt-unAXl5E8DVu4QrykRBNsVDdWKeVTEwA-N7pd8msg9jYwim8ZUr-0g_jT8JxXbuMFe4uScE5oIRcv5J71G-V0AsUF5JREuXKcQm2nx3kpIIVU0Ehle5uUYy5Tip9iccxZ77EwCW4nNLEwOHM2zunJ1ZY4ewRYnXKnCqqIjqTtC-7j2Ez8BdUJwNrbrinf34o36E47bBjx_Uq7yoX64vQrk2Ef49urYSLQctmHbH5Xge-p0gvD87cKwuzQHqScIMksVDjXpjIw3rCPOBh7hGRGHMgmq53bP_BLQHQbrCtoTLAUFzSqf6M91I8kNobiFfpZiZm54-Pp69Chfwg_UXPIsX7p4JYUYvArtelk7KKjNVmFm5aiNqZPlRiSPDWHQEMEntMFg0v3NdHYoPaQHhPqNNM6fAEE4sTxdyj3Fv3D3RiVMKlbbhAnMQwx8La_0IVQhj9GsI4tjCFD4VT-FVRTovQiKqEDFnFy4QcWt82viMbNIWcs2QGcIzTe8kY62W9Rh8Slrh_RHO8wRII2f2pJt30Lj4jmoaIwQLeVN62hPwI8eFVwYmwGe9cLkUPnZ4lysTeNnZYUBCx1u2lqji0HLhO1vqVefw18hePCRfAlqisscilVwwVz94CKbw2ls4SkQ-tjp_qV_2g4x43Nmq1ZwSvGJG-og1eX5tEt41IxP-NbojpxJoTsw7WMTFdXM9ctHp2sC3hqOlrM2wmPYZAm9fLX4s0is2IoaiZBtHd5mng0pwWc7FEDjugyDhV2pgR2v6yRMq_IPzvqGoD5MO81r93pV0d2JJ8xueZZdA3pld2XLncDr_vBDI4FAZ8sHEF98uYHjG0oq8u5j6ys-kP3SXG3182GaQJqNKvnxRTmV_NeHMcB0vKxarhGAjzRBjggbkx7pkQISBBvdkzkLM2T45BkbhSNEYuuSlObxP-junq2dh5Fm8BTjeP3b4cgNm8ZocatXxekQXhIQhikAclyNNIIspFXpT6kYhDheg4L6L8CRn0EZ7HLK4VSO8VQGp9TSYn3lRXSqjRl5eblvsy8kA6iUflHuJ0yyUmhsIxyC2ITGAPcwGx9Ve7TzZvmgmIyHWH0GYTrL-okoOM4jfr_c-RHRs3qsa0mn-5N6XDsTWHIF0g1BKAq7hrBz_OhvG6qap7Mr6_ng8ZBmOZI6Qh0jijX4Q4ZM20UKXqr4QHmBXHdcWfx6VaDnRvEF4ftMSccSiNti7IXpORqKQR2LSqt3WUnqwYy3dpIXnuf_Jhq7O_5J.1gPXwi3z7BHZ_akMSAYTiQ",
+      "domain": ".chatgpt.com",
+      "path": "/",
+      "expires": 1759735804.390617,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "vtAgUKaVEWv7TyLRszgl8fud.igBMKvNDE7NlYPlzF0-1751959804397-0.0.1.1-604800000",
+      "domain": ".chatgpt.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "oai-sc",
+      "value": "0gAAAAABobMj91svtS38EVAY8bedM9j0zvj4u9WmZnFvLHf_Y236ZkrxaKzA2YOmBEULruTEYrbs89aQ19zpcXW1T-5eUaNvnJUDGMJ-urQrBEK83TdMtAFW4T5asVotH5TFsuYvIrypTAqBPo3vlOeFfUiKHhJzeBpUkI9h_XUwVrLUHeS_3_LZXfYA-fJT7H7wEvwT-tlVg0nHtODH1Spz28_NXBDNCD9S6IpdHf1r5POK-FtD8UV4",
+      "domain": ".chatgpt.com",
+      "path": "/",
+      "expires": 1783495805.272001,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "oai-gn",
+      "value": "scyther",
+      "domain": "chatgpt.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "oai-hm",
+      "value": "AGENDA_TODAY%20%7C%20SHOULD_WE_BEGIN",
+      "domain": "chatgpt.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "rum=0&expire=1751960704644&logs=1&id=b5d10075-fe57-4ef7-bbe5-af11fb0b64bd&created=1751959745552",
+      "domain": "chatgpt.com",
+      "path": "/",
+      "expires": 1751960711,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://chatgpt.com",
+      "localStorage": [
+        {
+          "name": "oai/apps/caUserUpsellBanner",
+          "value": "{\"state\":{},\"version\":0}"
+        },
+        {
+          "name": "oai/apps/hasSeenNoAuthImagegenNux",
+          "value": "false"
+        },
+        {
+          "name": "oai/apps/debugSettings",
+          "value": "{\"state\":{\"enableFConversationEndpoint\":true,\"showCompletionPerfData\":true,\"jsonViewerFilters\":{},\"recordRendering\":false},\"version\":0}"
+        },
+        {
+          "name": "search.attributions-settings",
+          "value": "{\"state\":{\"debugMode\":false,\"viewModelPredictedFallback\":false,\"disableSegmentReplacement\":false,\"useSigmoid\":true,\"influenceTemperature\":0.2,\"probThreshold\":0.45,\"probBaseline\":0.02},\"version\":8}"
+        },
+        {
+          "name": "cache/user-FStfdxMvUMWcC6EoXL9P189L/aae60884-be7d-4fb3-ba3e-c61c9c853c62/gizmo-bootstrap",
+          "value": "{\"timestamp\":1751959804891,\"value\":{\"gizmos\":[]},\"version\":1,\"used\":2}"
+        },
+        {
+          "name": "oai/apps/caUpsellBanner",
+          "value": "{\"state\":{},\"version\":0}"
+        },
+        {
+          "name": "statsig.stable_id.1792610830",
+          "value": "\"a59f9419-de8f-4f1e-8a4b-0c1cbe4659e7\""
+        },
+        {
+          "name": "oai/apps/tatertotInContextUpsellBanner",
+          "value": "null"
+        },
+        {
+          "name": "statsig.session_id.1792610830",
+          "value": "{\"sessionID\":\"fb1c6dd9-4546-4cbc-aa2b-954e888d7c03\",\"startTime\":1751959745803,\"lastUpdate\":1751959805729}"
+        },
+        {
+          "name": "oai/apps/lastPageLoadDate",
+          "value": "\"2025-07-08T07:30:04.878Z\""
+        },
+        {
+          "name": "client-correlated-secret",
+          "value": "{\"alg\":\"HS512\",\"ext\":true,\"k\":\"isOWqJIEzhOwpBXwAShZey4v7Pm4D0ByS5B-ezQ6zqycbPy4evxPQUKxt4XgmJvGYZRg_68L-YDND5CLNC7TWJtGIgC6b51bAxAJSv7lwm3ILmya6duIcPtkWKhoF--Ke6B37vvmW4KbgY7PooZkAGZDsdqjwfRWGv9D2INQm2o\",\"key_ops\":[\"sign\",\"verify\"],\"kty\":\"oct\"}"
+        },
+        {
+          "name": "oai/apps/capExpiresAt",
+          "value": "{\"state\":{\"isoDate\":\"\"},\"version\":0}"
+        },
+        {
+          "name": "cache/user-FStfdxMvUMWcC6EoXL9P189L/aae60884-be7d-4fb3-ba3e-c61c9c853c62/conversation-history",
+          "value": "{\"value\":{\"pages\":[{\"items\":[{\"id\":\"6862ab9d-c9a0-8004-8986-178a103c1ad2\",\"title\":\"Eunuchs Forbidden City Story\",\"create_time\":\"2025-06-30T15:22:06.717948Z\",\"update_time\":\"2025-06-30T15:22:53.043038Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"6862a86c-d780-8004-996c-fb16cf49a392\",\"title\":\"Viking Market Narrative Section\",\"create_time\":\"2025-06-30T15:08:29.172667Z\",\"update_time\":\"2025-06-30T15:09:59.593141Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"6862a765-6de0-8004-a512-653d0bdb5444\",\"title\":\"Persian Air Conditioning Script\",\"create_time\":\"2025-06-30T15:04:06.356305Z\",\"update_time\":\"2025-06-30T15:05:43.729058Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"6862a362-117c-8004-bd7c-41953f97ffbe\",\"title\":\"Napoleon Toothbrush Story\",\"create_time\":\"2025-06-30T14:46:58.365481Z\",\"update_time\":\"2025-06-30T14:49:04.708584Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"6862a20b-1a9c-8004-ae8b-f53fc3335432\",\"title\":\"Victorian Insomnia Remedies\",\"create_time\":\"2025-06-30T14:41:15.479740Z\",\"update_time\":\"2025-06-30T14:43:05.741129Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"6862a161-1c94-8004-85f0-7137c649d975\",\"title\":\"Coffee in Ottoman Proposals\",\"create_time\":\"2025-06-30T14:38:25.779414Z\",\"update_time\":\"2025-06-30T14:39:35.196031Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"6862a0c3-4190-8004-ba74-ef827fe2652b\",\"title\":\"Polynesian Navigation Script Writing\",\"create_time\":\"2025-06-30T14:35:47.590712Z\",\"update_time\":\"2025-06-30T14:37:50.209433Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"68629fdb-4f20-8004-8da9-6b8f8a62678b\",\"title\":\"Medieval Trial Scriptwriting\",\"create_time\":\"2025-06-30T14:31:55.664609Z\",\"update_time\":\"2025-06-30T14:33:54.432942Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"68629e71-ebdc-8004-b9b0-6a0a80970f20\",\"title\":\"Aztec Gardening ASMR\",\"create_time\":\"2025-06-30T14:25:54.216202Z\",\"update_time\":\"2025-06-30T14:27:53.420309Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"68629d2a-a628-8004-88d8-ec6e204a6475\",\"title\":\"ASMR Bedtime History Script\",\"create_time\":\"2025-06-30T14:20:27.087706Z\",\"update_time\":\"2025-06-30T14:22:18.355146Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"686297d8-12d0-8004-b943-3dba6c97c940\",\"title\":\"Bedtime History Scriptwriting\",\"create_time\":\"2025-06-30T13:57:45.124795Z\",\"update_time\":\"2025-06-30T13:58:58.828179Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"6861397f-7d44-8004-8d8c-b0aae3a7d579\",\"title\":\"Napoleon Toothbrush Story Outline\",\"create_time\":\"2025-06-29T13:02:55.652348Z\",\"update_time\":\"2025-06-29T13:03:27.312213Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f5b6e-de08-8004-bd0a-a01dcad0c551\",\"title\":\"Queen Nzinga Outline\",\"create_time\":\"2025-06-28T03:03:10.993318Z\",\"update_time\":\"2025-06-28T03:03:22.663252Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f5a91-71b0-8004-acb3-cfa31204083a\",\"title\":\"Eunuchs in Forbidden City\",\"create_time\":\"2025-06-28T02:59:29.594227Z\",\"update_time\":\"2025-06-28T02:59:42.104590Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f5a1e-cf00-8004-b38e-416cf0b9ff46\",\"title\":\"Viking Story Outline\",\"create_time\":\"2025-06-28T02:57:34.966970Z\",\"update_time\":\"2025-06-28T02:57:47.526267Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f5944-fae4-8004-a83f-ea1f01dddc64\",\"title\":\"Ancient Persian Air Conditioning\",\"create_time\":\"2025-06-28T02:53:57.141016Z\",\"update_time\":\"2025-06-28T02:56:46.342439Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f58e0-fa28-8004-940e-5fcf7437fdb3\",\"title\":\"Napoleon Toothbrush Political Story\",\"create_time\":\"2025-06-28T02:52:17.129116Z\",\"update_time\":\"2025-06-28T02:52:30.766005Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f5870-052c-8004-8cff-d81fd2190a68\",\"title\":\"Victorian Insomnia Cures Outline\",\"create_time\":\"2025-06-28T02:50:24.186027Z\",\"update_time\":\"2025-06-28T02:51:13.211438Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f5803-8634-8004-819f-f9f88559525d\",\"title\":\"Coffee in Ottoman Proposals\",\"create_time\":\"2025-06-28T02:48:35.661761Z\",\"update_time\":\"2025-06-28T02:49:29.554797Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f57ad-c550-8004-a3f6-f0ac5fbe2588\",\"title\":\"Polynesian Navigation Story Outline\",\"create_time\":\"2025-06-28T02:47:09.919310Z\",\"update_time\":\"2025-06-28T02:47:23.037639Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f5716-f8ac-8004-96e0-75c55560a1e1\",\"title\":\"Medieval Pig Trial Outline\",\"create_time\":\"2025-06-28T02:44:39.209491Z\",\"update_time\":\"2025-06-28T02:44:53.982751Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f5664-2c48-8004-aba5-2f35525a0757\",\"title\":\"Aztec Gardening Outline\",\"create_time\":\"2025-06-28T02:41:40.400569Z\",\"update_time\":\"2025-06-28T02:43:56.931634Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f560e-58e8-8004-93ec-fc78ba66655f\",\"title\":\"Queen Nzinga Story Outline\",\"create_time\":\"2025-06-28T02:40:14.511802Z\",\"update_time\":\"2025-06-28T02:40:49.120307Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f55c6-61fc-8004-a76a-c5ee4d2d0855\",\"title\":\"Eunuchs Forbidden City Outline\",\"create_time\":\"2025-06-28T02:39:02.526127Z\",\"update_time\":\"2025-06-28T02:39:16.918102Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f54e8-01e4-8004-af92-ba88657550c9\",\"title\":\"Viking Story Outline\",\"create_time\":\"2025-06-28T02:35:20.200668Z\",\"update_time\":\"2025-06-28T02:37:32.519106Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f547f-93e4-8004-ba0b-0907231b13e9\",\"title\":\"Ancient Persian Cooling Invention\",\"create_time\":\"2025-06-28T02:33:35.794864Z\",\"update_time\":\"2025-06-28T02:34:47.546585Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f541b-b720-8004-b105-a0c64898750f\",\"title\":\"Napoleon's Toothbrush Story\",\"create_time\":\"2025-06-28T02:31:55.875914Z\",\"update_time\":\"2025-06-28T02:32:58.740217Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null},{\"id\":\"685f53ac-941c-8004-b8ad-dbabe137bb02\",\"title\":\"Aztec Gardening Story Outline\",\"create_time\":\"2025-06-28T02:30:04.712331Z\",\"update_time\":\"2025-06-28T02:30:15.488201Z\",\"mapping\":null,\"current_node\":null,\"conversation_template_id\":null,\"gizmo_id\":null,\"is_archived\":false,\"is_starred\":null,\"is_do_not_remember\":false,\"memory_scope\":\"global_enabled\",\"workspace_id\":null,\"async_status\":null,\"safe_urls\":[],\"blocked_urls\":[],\"conversation_origin\":null,\"snippet\":null,\"sugar_item_id\":null}],\"total\":57,\"limit\":28,\"offset\":0}],\"pageParams\":[0]},\"timestamp\":1751959805410,\"version\":1}"
+        },
+        {
+          "name": "oai-did",
+          "value": "\"a59f9419-de8f-4f1e-8a4b-0c1cbe4659e7\""
+        },
+        {
+          "name": "oai/apps/hasDismissedTeamsNoAuthUpsell",
+          "value": "false"
+        }
+      ]
+    }
+  ]
+}

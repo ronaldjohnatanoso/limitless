@@ -1,7 +1,22 @@
 import os
 import subprocess
 import time
+import json
 from playwright.sync_api import sync_playwright
+
+def save_storage_state(context, storage_path):
+    """Save the current browser storage state to a JSON file"""
+    storage_state = context.storage_state()
+    with open(storage_path, 'w') as f:
+        json.dump(storage_state, f, indent=2)
+    print(f"Storage state saved to: {storage_path}")
+
+def load_storage_state(storage_path):
+    """Load storage state from a JSON file"""
+    if os.path.exists(storage_path):
+        with open(storage_path, 'r') as f:
+            return json.load(f)
+    return None
 
 def main():
     # Get the current directory where this script is located
@@ -11,9 +26,12 @@ def main():
     start_script_path = os.path.join(current_dir, "start.sh")
     
     # Chrome launch arguments for start.sh
-    profile_name = "scytherkalachuchi"
+    profile_name = "n4"  # Change this for different profiles
     debug_port = "9222"
     headless = "false"  # Set to "true" for headless mode
+    
+    # Storage state file path
+    storage_state_path = os.path.join(current_dir, f"storage_state_{profile_name}.json")
     
     print(f"Launching Chrome via start.sh with profile: {profile_name}, port: {debug_port}")
     
@@ -39,6 +57,11 @@ def main():
             
             print("Connected to Chrome via CDP")
             
+            # Load existing storage state if available
+            storage_state = load_storage_state(storage_state_path)
+            # Create context with or without storage state
+
+            print("Creating new context (no existing storage state)")
             # Get the default context (or create a new one)
             contexts = browser.contexts
             if contexts:
@@ -49,35 +72,25 @@ def main():
             # Create a new page
             page = context.new_page()
              
-            # pre screenshot
-            
-
-            page.screenshot(path=os.path.join(current_dir, "screenshot1.png"))
-
-            # # Set a realistic user agent
-            # page.set_extra_http_headers({
-            #     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-            # # })
-            
             # Navigate to a website
             page.goto("https://chatgpt.com")
             
             page.wait_for_load_state('networkidle')
 
-            # Example: Take a screenshot
-            screenshot_path = os.path.join(current_dir, "screenshot2.png")
+            # Take a screenshot
+            screenshot_path = os.path.join(current_dir, f"screenshot_{profile_name}.png")
             page.screenshot(path=screenshot_path)
             print(f"Screenshot saved to: {screenshot_path}")
             
-            # Example: Get page title
+            # Get page title
             title = page.title()
             print(f"Page title: {title}")
             
             # Keep the browser open for a while
             page.wait_for_timeout(5000)
             
-            # Pause for interaction (optional)
-            page.pause()
+            # Save current storage state before closing
+            save_storage_state(context, storage_state_path)
             
             # Disconnect from browser (but don't close it)
             browser.close()
@@ -86,9 +99,6 @@ def main():
         print(f"Error connecting to Chrome: {e}")
     
     finally:
-        # Optionally terminate the Chrome process
-        # Uncomment the next line if you want to close Chrome when script ends
-        # chrome_process.terminate()
         print("Script finished. Chrome process is still running.")
 
 if __name__ == "__main__":
